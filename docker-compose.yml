@@ -13,7 +13,7 @@ services:
     networks:
       - my-shared-network
 
-
+  # mysql_profile
   mysql_profile:
     image: mysql:8.0
     container_name: mysql_profile
